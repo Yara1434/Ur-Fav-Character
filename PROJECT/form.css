@@ -1,0 +1,63 @@
+*{
+padding: 0;
+margin: 0;
+}
+.container{
+    background-image:url(images/login2.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgba(248, 252, 250, 0.158);
+width: 430px;
+height: 400px;
+display: flex;
+flex-direction: column;
+padding: 40px;
+align-items: center;
+}
+.name , .password , .email{
+    outline: none;
+    border: none;
+    border-bottom: .5px solid rgb(131, 136, 49);
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    color:rgba(132, 136, 49, 0.889) ;
+}
+::placeholder{
+    color:rgb(222, 222, 222) ;
+    padding-left: 10px;
+}
+h1{
+    color: rgb(131, 136, 49);
+}
+.remlbl{
+   color: rgb(71, 40, 4);
+   font-size: 20px;
+}
+button{
+   font-size: 10px;
+    bottom: 30px;
+    right: 5pX;
+   border-radius:60px 60px 60px 60px ;
+   width: 50px;
+    background-color: rgba(222, 184, 135, 0.001) ;
+     color: rgb(71, 40, 4);
+     border:1px solid rgba(255, 255, 255, 0.75);
+}
+button :hover{
+    background: rgb(71, 40, 4);
+    transition: 1s;
+}
+a{
+    font-size: 12px; 
+    color:rgb(245, 203, 154) ;
+    text-decoration: none;
+}
